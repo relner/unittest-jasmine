@@ -13,11 +13,11 @@
         });
     }));
 
-    it("Создание свойства counter", function () {
+    it("Cretae property counter", function () {
         expect(mockScope.counter).toEqual(0);
     })
     
-    it("Инкримент свойства", function () {
+    it("Increment property", function () {
         mockScope.incrementCounter();
         expect(mockScope.counter).toEqual(1);
     });
